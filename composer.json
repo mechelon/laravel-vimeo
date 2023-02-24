@@ -68,8 +68,16 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/mechelon/Laravel-Manager"
+            "type": "package",
+            "package": {
+                "name": "graham-campbell/manager",
+                "version": "dev-upgrade-to-laravel-10",
+                "source": {
+                    "url": "https://github.com/mechelon/Laravel-Manager",
+                    "type": "git",
+                    "reference": "upgrade-to-laravel-10"
+                }
+            }
         }
     ]
 }
