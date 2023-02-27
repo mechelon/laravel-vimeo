@@ -22,7 +22,7 @@
         "php": "^7.2|^8.0",
         "illuminate/contracts": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
         "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
-        "graham-campbell/manager": "dev-upgrade-to-laravel-10",
+        "graham-campbell/manager": "^5.0",
         "vimeo/vimeo-api": "^3.0.3|^3.0"
     },
     "require-dev": {
@@ -65,19 +65,5 @@
         "tests": [
             "composer phpunit"
         ]
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "graham-campbell/manager",
-                "version": "dev-upgrade-to-laravel-10",
-                "source": {
-                    "url": "https://github.com/mechelon/Laravel-Manager",
-                    "type": "git",
-                    "reference": "upgrade-to-laravel-10"
-                }
-            }
-        }
-    ]
+    }
 }
